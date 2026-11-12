@@ -5,7 +5,7 @@ validation, below the 57.4% you get by always guessing "up". Same model, same da
 
 This repo reproduces that experiment exactly, then lets you test other algorithms under the same protocol.
 
-## The setup (as in the original post)
+## The setup 
 - **Data:** S&P 500 (`^GSPC`) daily closes, 1999-2018
 - **Features (6, past only):** returns over 1, 5, 10, 20 days; 20-day volatility; distance to the 50-day average
 - **Question:** will the index be higher in **5 trading days**?
