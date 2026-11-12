@@ -1,0 +1,6 @@
+method,accuracy_pct,std_pct
+Random 5-fold (leaks the future),58.97128211337813,1.4127172497008762
+Walk-forward (honest),49.481302774427014,2.6858466393616522
+Walk-forward + 5d purge gap,50.687575392038596,2.973798418442265
+"Always say 'up' (no model), whole sample",55.69620253164557,0.0
+"Always say 'up', walk-forward test windows",57.44270205066344,2.875284326260956
